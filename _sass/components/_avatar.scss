@@ -1,0 +1,49 @@
+// Components :: Avatar
+
+.c-avatar {
+  position: relative;
+  width: 100px;
+}
+
+.c-avatar__image {
+  @include animation(c-avatar__image 3s infinite);
+  @include backface-visibility(hidden);
+}
+
+.c-avatar__shadow {
+  @include animation(c-avatar__shadow 3s infinite);
+  @include backface-visibility(hidden);
+  background: rgba(black, 0.1);
+  border-radius: 50%;
+  height: 10px;
+  position: relative;
+  left: 5px;
+  margin: auto;
+  width: 40%;
+}
+
+
+// Animations
+@include keyframes(c-avatar__image) {
+  0% {
+    @include transform(translateY(0) rotate(-10deg));
+  }
+  50% {
+    @include transform(translateY(10px) rotate(-10deg));
+  }
+  100% {
+    @include transform(translateY(0) rotate(-10deg));
+  }
+}
+
+@include keyframes(c-avatar__shadow) {
+  0% {
+    @include transform(scale(1));
+  }
+  50% {
+    @include transform(scale(1.2));
+  }
+  100% {
+    @include transform(scale(1));
+  }
+}

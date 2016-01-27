@@ -1,0 +1,32 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Vendor
+@import "vendor/bourbon/app/assets/stylesheets/bourbon";
+@import "vendor/normalize/normalize";
+@import "vendor/composer-css/_sass/composer";
+
+
+// Variables (Config)
+@import "variables/color";
+@import "variables/typography";
+
+
+// Base
+@import "base/base";
+@import "base/image";
+@import "base/typography";
+
+
+// Components
+@import "components/avatar";
+
+
+// Layouts
+@import "layout/grid";
+
+
+// Utilities
+@import "utilities/typography";

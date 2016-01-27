@@ -1,0 +1,22 @@
+{
+  "name": "jonquach",
+  "authors": [
+    "ItsJonQ <itsjonq@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "~4.2.6",
+    "composer-css": "git@github.com:ItsJonQ/composer-css.git"
+  }
+}
