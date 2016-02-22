@@ -35,5 +35,5 @@ deploy:
     - add-to-known_hosts:
         hostname: $DO_HOST
     - script:
-      name: deploy to DO
-      code: rsync -a _site/ $DO_DEST
+      name: deploy to digital ocean
+      code: rsync -a _site/ $DO_HOST:$DO_DEST
