@@ -45,4 +45,12 @@ assets:
     automatic_img_alt: false
 
 
-exclude: ["bower_components", "tmp", "node_modules", ".tmp", ".grunt", ".asset-cache", "_assets/vendor"]
+exclude: [
+  ".asset-cache",
+  ".grunt",
+  ".tmp",
+  "_assets/vendor",
+  "bower_components",
+  "node_modules",
+  "tmp"
+]
