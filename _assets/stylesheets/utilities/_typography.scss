@@ -26,6 +26,38 @@
   font-family: $Q-font-family-serif !important;
 }
 
+.u-text-fancy {
+  font-family: $Q-font-family-fancy !important;
+}
+
+
+// Display
+.u-text-display-1 {
+  font-size: $Q-font-size--display-3;
+  font-weight: $Q-font-weight--light;
+
+  @include composer-media-breakpoint(sm) {
+    font-size: $Q-font-size--display-1;
+  }
+}
+
+.u-text-display-2 {
+  font-size: $Q-font-size--h1;
+  font-weight: $Q-font-weight--light;
+
+  @include composer-media-breakpoint(sm) {
+    font-size: $Q-font-size--display-2;
+  }
+}
+
+.u-text-display-3 {
+  font-size: $Q-font-size--h1;
+  font-weight: $Q-font-weight--light;
+
+  @include composer-media-breakpoint(sm) {
+    font-size: $Q-font-size--display-3;
+  }
+}
 
 // Sizing
 .u-text-md {
