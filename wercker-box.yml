@@ -1,0 +1,35 @@
+name: node-ruby
+version: 1.1.0
+inherits: ruudk/ubuntu14.04@1.0.0
+type: main
+platform: ubuntu@12.04
+description: wercker box for ruby build/tests and docker container deployment
+keywords:
+  - ruby
+  - docker
+  - node@0.12.1
+script: |
+  sudo apt-get update -qq
+  sudo apt-get install apt-transport-https -y -qq
+  sudo apt-get install python-software-properties -y -qq
+  sudo apt-add-repository ppa:brightbox/ruby-ng -y
+  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 36A1D7869245C8950F966E92D8576A8BA88D21E9
+  sudo sh -c "echo deb https://get.docker.com/ubuntu docker main > /etc/apt/sources.list.d/docker.list"
+  sudo apt-get update -qq
+  sudo apt-get install lxc-docker -y -qq
+  sudo apt-get install ruby2.1 -y -qq
+  sudo apt-get update
+  sudo apt-get install wget build-essential
+  export NODEVERSION=0.12.1
+  cd $HOME
+  mkdir nodeinstall
+  cd nodeinstall
+  wget http://nodejs.org/dist/v$NODEVERSION/node-v$NODEVERSION.tar.gz
+  tar xzf node-v$NODEVERSION.tar.gz
+  cd node-v$NODEVERSION
+  ./configure
+  make
+  sudo make install
+  cd $HOME
+  rm -fr nodeinstall
+  node -v

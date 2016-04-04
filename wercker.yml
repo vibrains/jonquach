@@ -1,7 +1,7 @@
 # This references the default Ruby container from
 # the Docker Hub.
 # https://registry.hub.docker.com/_/ruby/
-box: ruby:2.1.3
+box: node-ruby
 
 # This is the build pipeline. Pipelines are the core of wercker
 # Read more about pipelines on our dev center
