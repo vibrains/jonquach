@@ -24,7 +24,7 @@ build:
           git config --global user.email "itsjonq@gmail.com"
           git config --global user.name "ItsJonQ"
     - bundle-install
-    - script
+    - script:
         name: npm install
         code: npm install
     - script:
