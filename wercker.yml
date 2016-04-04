@@ -24,6 +24,9 @@ build:
           git config --global user.email "itsjonq@gmail.com"
           git config --global user.name "ItsJonQ"
     - bundle-install
+    - script
+        name: npm install
+        code: npm install
     - script:
         name: build
         code: jekyll build
