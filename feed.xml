@@ -2,12 +2,63 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jon Quach | Design Engineer + Doodler</title>
-    <description>Heya! I'm a Toronto designer who loves beautifully engineered CSS &amp; doodles.</description>
+    <description>Hi! I'm Q. A designer &amp; developer, specializing in UI system design… and mascots!</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 17 Oct 2017 11:30:06 -0400</pubDate>
-    <lastBuildDate>Tue, 17 Oct 2017 11:30:06 -0400</lastBuildDate>
+    <pubDate>Fri, 24 Nov 2017 16:54:25 -0500</pubDate>
+    <lastBuildDate>Fri, 24 Nov 2017 16:54:25 -0500</lastBuildDate>
     <generator>Jekyll v3.4.1</generator>
+    
+      <item>
+        <title>BLACKPINK</title>
+        <description>&lt;p&gt;Oh wow, talk about a facelift! Black &amp;amp; pink have always been one of my favourite color combos. Not to mention, I’ve always wanted a dark site!&lt;/p&gt;
+
+&lt;p&gt;There were several reasons why I decided to &lt;strong&gt;revamp&lt;/strong&gt; my site:&lt;/p&gt;
+
+&lt;h4 id=&quot;1-rebuild-it-with-cool-tech-stuffs-&quot;&gt;1. Rebuild it with cool tech stuffs ✨&lt;/h4&gt;
+
+&lt;p&gt;Over the past year and a half or so, I’ve been fortunate to have the opportunities to &lt;em&gt;invent&lt;/em&gt; some really cool projects at my &lt;a href=&quot;https://www.helpscout.net/&quot;&gt;job&lt;/a&gt; (bonus: a lot of them are open source). Some of these projects include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.helpscout.com/seed/&quot;&gt;A modular CSS framework&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/helpscout/jekyll-spark&quot;&gt;A React-inspired templating “language” for Jekyll&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/helpscout/jekyll-joule&quot;&gt;A Jekyll unit testing library&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There’s more, but the ones I mentioned are used to build this site. (Curious? Check out the &lt;a href=&quot;https://github.com/itsjonq/jonquach&quot;&gt;source code&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h4 id=&quot;2-provide-myself-with-a-platform-to-write-️&quot;&gt;2. Provide myself with a platform to write ✍️&lt;/h4&gt;
+
+&lt;p&gt;One of my 2017 goals was to write a lot. I failed this goal by… a lot. So far, I’ve published &lt;a href=&quot;https://www.helpscout.net/blog/style-guide/&quot;&gt;one blog post&lt;/a&gt;, and a couple &lt;a href=&quot;https://medium.com/@itsjonq&quot;&gt;Medium dot coms&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There were &lt;strong&gt;so&lt;/strong&gt; many excuses why I didn’t write. I didn’t have complete well-formed ideas… I didn’t have the time… I can’t English… But, really, at the end of the day…&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I don’t have an excuse for not writing.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’ve always been a fan of Jekyll and Markdown. I have oodles of half-formed potential posts written in Markdown stashed away in my Dropbox. I think adding a “Blog” section to my site will encourage me to fully realize those brain farts of mine.&lt;/p&gt;
+
+&lt;h4 id=&quot;3-branding-️&quot;&gt;3. #branding ✌️&lt;/h4&gt;
+
+&lt;p&gt;Another goal I had this year was to start doing CSS talks / workshops. So far, I’ve done &lt;strong&gt;one&lt;/strong&gt; CSS deep dive talk during my company’s Barcelona retreat.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/q-barcelona-retreat-css-deep-dive-2017.jpg&quot; alt=&quot;Me talking about CSS things!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Apparently I didn’t fail at it, and folks really enjoyed it!)&lt;/p&gt;
+
+&lt;p&gt;Writing about CSS (and perhaps other code things) will help establish my &lt;em&gt;#brand&lt;/em&gt; as an “expert” in the field, which would enable speaking/workshop opportunities (I hope)!&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading my first blog blurb and for checking out my new site! &lt;strong&gt;You are awesome&lt;/strong&gt;, and I hope you’ll stay tuned more posts in the future 🚀.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 22 Nov 2017 00:00:00 -0500</pubDate>
+        <link>/posts/blackpink/</link>
+        <guid isPermaLink="true">/posts/blackpink/</guid>
+        
+        
+        <category>Misc</category>
+        
+      </item>
     
   </channel>
 </rss>
